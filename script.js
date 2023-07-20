@@ -6,7 +6,7 @@ let articles = ["A", "AN", "THE"]
 	const ref=document.getElementsByTagName("ul")[0]
 	for(let i=0;i<bandNames.length;i++)
 	{
-		const li=document.cretaeElement("li")
+		const li=document.createElement("li")
 		li.innerText=bandNames[i]
 		ref.append(li)
 	}
